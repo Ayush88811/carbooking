@@ -1,10 +1,7 @@
 import React from 'react'
 import { useAppContext } from '../context/AppContext'
-import { Navigate } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
+import { toast } from 'react-hot-toast'
 import { useState } from 'react'
-import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
 
 
 const Login = () => {

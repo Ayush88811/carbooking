@@ -22,6 +22,7 @@ app.use(
     origin: [
       "https://carbooking-eed7-p4pke9v76-ayush24.vercel.app",
       "http://localhost:3000",
+      "http://localhost:5173",
     ],
     credentials: true,
   })
