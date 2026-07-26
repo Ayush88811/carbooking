@@ -17,7 +17,17 @@ const app = express()
 await connectDB() // Connect to Database
 
 // Middleware
-app.use(cors());
+import cors from "cors";
+
+app.use(
+  cors({
+    origin: [
+      "https://carbooking-eed7-p4pke9v76-ayush24.vercel.app",
+      "http://localhost:3000",
+    ],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.get('/', (req, res)=> res.send("Server is running"))
