@@ -17,8 +17,6 @@ const app = express()
 await connectDB() // Connect to Database
 
 // Middleware
-import cors from "cors";
-
 app.use(
   cors({
     origin: [
