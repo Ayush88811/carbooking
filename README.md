@@ -14,7 +14,6 @@ A full-stack car rental and booking platform built with the MERN stack. GrandRid
 - 👤 User authentication with JWT
 - 📅 Car booking system
 - 📋 Manage bookings
-- 💳 Payment-ready architecture
 - 📱 Responsive design
 - ⚡ Fast and modern React interface
 - 🔒 Secure backend API
